@@ -1,0 +1,123 @@
+/* Your custom styles */
+
+.changa {
+    font-family: 'Changa', sans-serif;
+}
+/*
+.col-sm-4 {
+padding: 2px;
+}
+    */
+.grey-text {
+  color: #9e9e9e !important; 
+}
+html body {
+  font-family: 'Changa', sans-serif;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.img-thumbnail {
+  border-radius: 0;
+  padding: 0px !important;
+  background-color: inherit;
+}
+.img-thumbnail img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+nav {
+  margin-top: -0.50em;
+}
+.col-lg-2, .col-sm-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+.home-bg { 
+   background: url("../img/home.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+}
+.landing-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: grey;
+}
+   */
+   
+.push-down-10 {
+  padding-top: 10rem;
+}
+.push-down-5{
+  padding-top: 5rem;
+}
+
+.push-down-20 {
+  padding-top: 20rem;
+}
+.img-thumbnail {
+  max-width: none;
+}
+
+thumbnail {
+  padding: 1rem;
+}
+
+div a img {
+  width: 100%;
+  display:block;
+}
+gallery {
+  width:100%;
+  display:flex;
+  flex-flow: row wrap;
+}
+
+/*
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+#intro{
+  background: url("img/home.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover;
+}
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+    */
+
+
+/*--- Media Queries --
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+	
+}
+*/

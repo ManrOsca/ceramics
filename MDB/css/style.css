@@ -91,6 +91,18 @@ gallery {
   flex-flow: row wrap;
 }
 
+
+/* Remove Lightbox white frame */
+.lightbox .lb-image {
+  border: none;
+}
+.anchor{
+   display:block;
+   height:142px; /* this is the height of the header */
+/*   margin-top:-142px; /* this is again negative value of the height of the header */
+   visibility:hidden;
+}
+
 /*
 html,
 body,

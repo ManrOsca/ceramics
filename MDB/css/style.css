@@ -18,7 +18,7 @@ html body {
 .figure-caption {
   font-size: 90%;
   color: #fff;
-  text-transform: uppercase;
+/*  text-transform: uppercase; */
   font-weight: 600;
 }
 .img-thumbnail {
@@ -98,11 +98,17 @@ gallery {
 }
 .anchor{
    display:block;
-   height:142px; /* this is the height of the header */
+   height:130px; /* this is the height of the header */
 /*   margin-top:-142px; /* this is again negative value of the height of the header */
    visibility:hidden;
 }
+.upper {
+    text-transform: uppercase; 
+}
 
+.nav-link, .navbar {
+    padding: 0;
+}
 /*
 html,
 body,

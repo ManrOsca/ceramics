@@ -99,7 +99,7 @@ gallery {
 }
 .anchor{
    display:block;
-   height:95px; /* this is the height of the header */
+   height:91px; /* this is the height of the header */
 /*   margin-top:-142px; /* this is again negative value of the height of the header */
    visibility:hidden;
 }
@@ -143,10 +143,20 @@ header,
 	}
 
 #italo {
-		font-size: 120%;
-		letter-spacing: 2px;
-		padding-left: 0;
+	font-size: 120%;
+	letter-spacing: 2px;
+	padding: 18px 16px;
 	}
+
+.navbar-nav {
+	padding-left: 10px;
+	letter-spacing: 3px;
+	color: #808080;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+	color: #808080;
+}
 
 /*
 home > div.row > img.mx-auto {
@@ -164,20 +174,35 @@ home > div.row > img.mx-auto {
 
 @media (min-width: 767px) { 
 	div.row > img.mx-auto {
-	width: 50%;
-	height: 50%;
+	width: 60%;
+	height: 60%;
 	}
 	div.row > p {
-	width: 50%;
-	height: 50%;
+	width: 60%;
+	height: 60%;
 	color: #808080;
 	}
 	#italo {
 		font-size: 1.2rem;
 		letter-spacing: 4px;
 		padding-left: 0;
+		padding: 23px;
 	}
- }
+	.navbar-nav {
+	padding-left: 15px;
+	letter-spacing: 3px;
+	color: #808080;
+	}
+	.anchor{
+   	display:block;
+   	height:101px; /* this is the height of the header */
+/*   margin-top:-142px; /* this is again negative value of the height of the header */
+   	visibility:hidden;
+}
+}
+
+
+
 
 /* Medium devices (tablets, 768px and up)  */
 

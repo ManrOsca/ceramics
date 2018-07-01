@@ -1,7 +1,15 @@
 /* Your custom styles */
 
-.changa {
+
+
+.changaLight {
     font-family: 'Changa', sans-serif;
+    font-weight: 300;
+}
+
+.changaMedium{
+    font-family: 'Changa', sans-serif;
+    font-weight: 500;
 }
 
 .grey-text {
@@ -10,14 +18,13 @@
 
 html body {
   font-family: 'Changa', sans-serif;
+  font-weight: 300;
 }
 
 .figure-caption {
-  font-size: 90%;
+  font-size: 60%;
   color: #fff;
-
-/*  text-transform: uppercase; */
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .img-thumbnail {
@@ -64,16 +71,6 @@ header,
 }
    */
    
-.push-down-10 {
-  padding-top: 10rem;
-}
-.push-down-5{
-  padding-top: 5rem;
-}
-
-.push-down-20 {
-  padding-top: 20rem;
-}
 .img-thumbnail {
   max-width: none;
 }
@@ -110,30 +107,17 @@ gallery {
 .nav-link, .navbar {
     padding: 0;
 }
-/*
-html,
-body,
-header,
-#intro {
-  height: 100%;
-}
-#intro{
-  background: url("img/home.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;  
-  -o-background-size: cover;  
-  background-size: cover;
-}
-@import url('https:/*fonts.googleapis.com/css?family=Yantramanav:100');
-@import url('https:/*fonts.googleapis.com/css?family=Montserrat:400');
-    */
 
- .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+    	font-family: 'Changa', sans-serif;
+    	font-weight: 500;
 	color: #ff00ff;
 	background: none;
 	}
 .container-fluid {
 	height: 100%;
+	padding: 0;
+	font-size: 80%;
 	}
 .body-grey {
 	background-color: #efefef;
@@ -143,14 +127,13 @@ header,
 	}
 
 #italo {
-	font-size: 120%;
+ 	font-size: 120%; 
 	letter-spacing: 2px;
-	padding: 18px 16px;
+	padding: 18px 23px;
 	}
 
 .navbar-nav {
-	padding-left: 10px;
-	letter-spacing: 3px;
+	padding-left: 18px;
 	color: #808080;
 }
 
@@ -158,22 +141,39 @@ header,
 	color: #808080;
 }
 
+.grid3 {
+	width: calc(100% / 3);
+}
+
+figcaption {
+  background: rgba(0,0,0,.4);
+  max-width: 400px;
+  font-size: 10px;
+  display: table-caption; /* block; */
+  float: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+figure {
+  position: relative;
+  float: left;
+  display: table;
+}
+
+.padLeft {
+	padding-left: 20px;
+}
 /*
-home > div.row > img.mx-auto {
-		width: 50%;
-		height: 50%;
-} */ 
+figure { display: table; }
 
-/* Extra small devices (portrait phones, less than 576px)*/
+figcaption { display: table-caption; caption-side: top ; }
+*/
 
-/* No media query since this is the default in Bootstrap*/
-
-.container-fluid {
-	padding-right: 0;
-	}
 
 @media (min-width: 767px) { 
-	div.row > img.mx-auto {
+	div.row > img.mx-auto, div.row.mx-auto {
 	width: 60%;
 	height: 60%;
 	}
@@ -183,14 +183,12 @@ home > div.row > img.mx-auto {
 	color: #808080;
 	}
 	#italo {
-		font-size: 1.2rem;
 		letter-spacing: 4px;
 		padding-left: 0;
-		padding: 23px;
+		padding: 23px 30px;
 	}
 	.navbar-nav {
-	padding-left: 15px;
-	letter-spacing: 3px;
+	padding-left: 23px;
 	color: #808080;
 	}
 	.anchor{
@@ -198,18 +196,28 @@ home > div.row > img.mx-auto {
    	height:101px; /* this is the height of the header */
 /*   margin-top:-142px; /* this is again negative value of the height of the header */
    	visibility:hidden;
+	}
+	.figure-caption {
+	font-size: 90%;
+	}
+	p.container-fluid {
+	padding-left: 0 !important;
+	font-size: 100%;
+	}
 }
-}
 
 
 
 
-/* Medium devices (tablets, 768px and up)  */
+/* Medium devices (tablets, 768px and up) */ 
 
 @media (max-width: 766px;) {
 	div.row > img.mx-auto {
 	width: 100%;
 	height: 100%;
+	}
+	main {
+	width: 100%;
 	}
  }
 

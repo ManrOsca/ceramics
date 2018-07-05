@@ -22,8 +22,8 @@ html body {
 }
 
 .figure-caption {
-  font-size: 60%;
-  color: #fff;
+/*   font-size: 60%;  */
+  color: #b0b0b0;
   font-weight: 500;
 }
 
@@ -106,7 +106,7 @@ gallery {
 .container-fluid {
 	height: 100%;
 	padding: 0;   
-	font-size: 80%;
+/*	font-size: 80%;  */
 	}
 .body-grey {
 	background-color: #efefef;
@@ -144,12 +144,20 @@ span a {
 figcaption {
   background: rgba(0,0,0,.4);
   max-width: 400px;
-  font-size: 10px;
+/*   font-size: 10px; */
   display: table-caption; /* block; */
   float: center;
   position: absolute;
-  top: 0;
+/*  top: 0; */
   width: 100%;
+}
+
+figcaption.bottom {
+	bottom: 0;
+}
+
+figcaption.top {
+	top: 0;
 }
 
 figure {
@@ -175,7 +183,7 @@ span a {
 	float: right;
 	display: block;
 	margin: 0;
-	padding: 0 0 0 5px;
+	padding: 0 10px 0 5px;
 }
 
 .pushUp{
@@ -217,7 +225,7 @@ figcaption { display: table-caption; caption-side: top ; }
    	visibility:hidden;
 	}
 	.figure-caption {
-	font-size: 90%;
+	font-size: 100%;
 	}
 	p.container-fluid {
 	padding-left: 0 ;

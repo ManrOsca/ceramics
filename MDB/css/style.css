@@ -254,6 +254,10 @@ div p span span {
 
 }
 
+.copy {
+	font-size: 150%; 
+}
+
 @media (min-width: 767px) { 
 	div.row > img.mx-auto, div.row.mx-auto {
 	width: 60%;

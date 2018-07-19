@@ -79,6 +79,7 @@ gallery {
 /* Remove Lightbox white frame */
 .lightbox .lb-image {
   border: none;
+  border-radius: 0;
 }
 .anchor{
    display:block;
@@ -213,6 +214,7 @@ figcaption { display: table-caption; caption-side: top ; }
 .lb-data {   /* text fo the gallery's picture caption */
     color: #808080;
 	font-weight:300;
+    padding:0;
 }
 .lb-data .lb-caption {   /* text fo the gallery's picture caption */
     color: #808080;
@@ -235,15 +237,15 @@ span.adjustSocial a {
 
 .adjustSocial {
 	position: relative;
-	top: 30px;
-	left: 70px;
+	top: 20px;
+	left: 0px;
 	float:left;
 	}
 
 .adjustEmail{
 	bottom:30px;
 	position:relative;
-	right:70px;
+	right:0px;
 }
 
 div p span span {
@@ -287,7 +289,7 @@ div p span span {
 	font-size: 100%;
 	}
 	p.container-fluid {
-	padding-left: 0 ;
+	padding-left: 2px; ;
 	font-size: 100%;
 	}
 /*	.right {
@@ -299,9 +301,10 @@ div p span span {
 	}
 
 	.adjustSocial {
-	position:relative;
-	float:right;
-	left:0;
+	position: relative;
+	top: 40px;
+	left: 70px;
+	float:left;
 	}
 
 	div p span span {
@@ -310,12 +313,13 @@ div p span span {
     bottom: 30px;
 
 	}
-	span.adjustSocial a {
+    
+/*	span.adjustSocial a {
     float: left;
     display: block;
     margin: 0;
     padding: 0 5px 0 0;
-	}
+	} */
 
 	p.container-fluid.typeSmall {
 	font-size: 80%; 
@@ -325,7 +329,6 @@ div p span span {
 	bottom:30px;
 	position:relative;
 	right:70px;
-	left:0;
 	}
 }
 

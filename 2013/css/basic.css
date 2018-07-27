@@ -1,0 +1,292 @@
+.aim {
+	color: #808080;
+	text-align: left;
+	font-size: 11pt; /* 13 */
+	display: block;
+	float: none;
+	margin-right: 40px; /* 60 */
+	margin-left: 5px;
+	line-height: 16pt;/*	margin-top: 5px;		
+	letter-spacing: 0.05em;*/
+	font-weight: normal;
+}
+.copy {
+	color: #808080;
+	text-align: left;
+	font-size: 8pt; /* 13 */
+	display: block;
+	float: none;
+	margin-right: 40px; /* 60 */
+	margin-left: 5px;
+	line-height: 16pt;/*	margin-top: 5px;		
+	letter-spacing: 0.05em;*/
+	font-weight: normal;
+	text-decoration: none;
+}
+.copy a {
+	/* text-decoration:none; */
+	color: #808080;
+}
+.copysign {
+	font-size: 10pt; 
+}
+.italic {
+	font-style: italic;	
+}
+hr {
+	border: 0 #CCCCCC solid;
+	border-top-width: 1.5px;
+	clear: both;
+	height: 0;/*	margin-top: 12px;	*/
+}
+#photoshow {
+	position: relative;
+	left: 15px;
+}
+.showgrid {
+	background-image: url(../graphics/grid24.png);
+}
+.cap-bold {
+	font-weight: bold;
+	color: #808080;
+}
+.cap-thin {
+	font-weight: normal;
+	color: #808080;
+}
+#body {
+	height: 506px;		
+	width: 960px;	
+}
+#leftBlock {
+	height: 361px;
+	width: 348px;
+	padding-left: 42px;  
+}
+/*
+Menu	
+	*/
+
+/* ===================================================== */
+/* bottom navigation buttons */
+	
+.botnav {
+	padding-top: -1px;
+	padding-left: 0 px; /* 235px; */
+	margin-left: 47px;   
+}
+ul.botnav li {
+	cursor:pointer;
+	float:left;
+	list-style-type:none;
+	margin-left: 0px;
+}
+.hr {
+	margin-left: 50px;  
+	margin-right: -20px;
+	}
+#header {
+	margin-top: -3px;
+}
+	
+/* Start tempo mod 26 Jan 2013 */
+#home {
+	display: block;
+	width: 60px;
+	height: 20px; /* 28 */
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-bottom-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+}
+#home:hover {
+	background-position: 0 -28px;	
+}
+#home.selected {
+	background-position: 0 -57px;	
+}
+#background {
+	display: block;
+	width: 120px;
+	height: 20px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-bottom-buttons_1.jpg);
+	background-position: -61px 0px;
+	background-repeat: no-repeat;
+}
+#background:hover {
+	background-position: -61px -28px;	
+}
+#background.selected {
+	background-position: -61px -57px;	
+}
+
+#statement {
+	display: block;
+	width: 160px;
+	height: 20px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-bottom-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: -181px 0;
+}
+#statement:hover {
+	background-position: -181px -28px;	
+}
+#statement.selected {
+	background-position: -181px -57px;	
+}
+#gallery {
+	display: block;
+	width: 100px;
+	height: 20px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-bottom-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: -341px 0;
+}
+#gallery:hover {
+	background-position: -341px -28px;	
+}
+#gallery.selected {
+	background-position: -341px -57px;	
+}
+#commission {
+	display: block;
+	width: 120px;
+	height: 20px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-bottom-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: -441px 0;
+}
+#commission:hover {
+	background-position: -441px -28px;	
+}
+#commission.selected {
+	background-position: -441px -57px;	
+}
+#contact {
+	display: block;
+	width: 80px;
+	height: 20px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-bottom-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: -561px 0;
+}
+#contact:hover {
+	background-position: -561px -28px;	
+}
+#contact.selected {
+	background-position: -561px -57px;	
+}
+/* End tempo mod 26 Jan 2013 */
+
+/* ===================================================== */
+/* left navigation buttons */
+.leftnav {
+	padding-top: 2px;
+	padding-left: 40px; 
+	position: relative;
+	top: -5px;
+}
+ul.leftnav li {
+	cursor:pointer;
+	float:left;
+	list-style-type:none;
+	margin-left: 0px;
+}
+
+#teapot {
+	display: block;
+	width: 94px;
+	height: 27.5px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-vertical-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#teapot:hover {
+	background-position: -92px 0px;	
+}
+#teapot.selected {
+	background-position: -184px 0px;	
+}
+#jug {
+	display: block;
+	width: 94px;
+	height: 27.5px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-vertical-buttons_1.jpg);
+	background-position: 0px -27.5px;
+	background-repeat: no-repeat;
+}
+#jug:hover {
+	background-position: -92px -27.5px;	
+}
+#jug.selected {
+	background-position: -184px -27.5px;	
+}
+
+#cup {
+	display: block;
+	width: 94px;
+	height: 27.5px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-vertical-buttons_1.jpg);
+	background-position: 0px -55px;
+	background-repeat: no-repeat;
+}
+#cup:hover {
+	background-position: -92px -55px;	
+}
+#cup.selected {
+	background-position: -184px -55px;	
+}
+
+#vase {
+	display: block;
+	width: 94px;
+	height: 27.5px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-vertical-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -82.5px;
+}
+#vase:hover {
+	background-position: -92px -82.5px;	
+}
+#vase.selected {
+	background-position: -184px -82.5px;	
+}
+#bowl {
+	display: block;
+	width: 94px;
+	height: 27.5px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-vertical-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -110px;
+}
+#bowl:hover {
+	background-position: -92px -110px;	
+}
+#bowl.selected {
+	background-position: -184px -110px;	
+}
+#dish {
+	display: block;
+	width: 94px;
+	height: 27.5px;
+	text-indent: -9999px;
+	background-image: url(../graphics/Italo-vertical-buttons_1.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -137.5px;
+}
+#dish:hover {
+	background-position: -92px -137.5px;	
+}
+#dish.selected {
+	background-position: -184px -137.5px;	
+}

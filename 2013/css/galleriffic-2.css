@@ -1,0 +1,208 @@
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: right;
+	width: 550px;
+	position: relative;
+	left: -16px;
+	height: 506px;
+}
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #808080;
+}
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: none;
+	color: #000;
+}
+div.controls {
+	margin-top: 5px;
+	height: 23px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #808080;
+}
+div.controls a {
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #808080;
+}
+div.controls a.next {
+/* 	color:#ff4500;	*/
+}
+div.controls .nav-controls {
+	position: relative;
+	left: 5px;
+/*	clear: left;	*/
+}
+
+div.controls a.play {
+	position: relative;
+	left: -2px;
+}
+div.ss-controls {
+	float: left;
+	clear: left;
+}
+div.nav-controls {
+	margin-left: 50px;
+/*	float: right; */
+}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 550px;
+	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 605px;	/* 550 */
+	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: left;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: top;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #f7f7f7;
+	border-right-color: #f7f7f7;
+	border-bottom-color: #f7f7f7;
+	border-left-color: #f7f7f7;
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0, 0, 0.4);
+    -moz-box-shadow: 3px 3px 5px rgba(0,0, 0, 0.4);
+     box-shadow: 3px 3px 5px rgba(0,0, 0, 0.4);
+
+}
+div.download {
+	float: right;
+}
+div.caption-container {
+	position: relative;
+	clear: left;
+	height: 75px;
+	top: -130px;
+	margin-left: 2px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	width: 550px;
+	top: 0;
+	left: 0;
+}
+div.caption {
+	padding: 1px;  /* 12px  */
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	line-height: 14pt;
+	padding-top: 1px;
+	font-size: 9pt;
+}
+div.navigation {
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -5px;
+	left: 0px;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;   /* tenia 5px 10px 5px 0 */
+	list-style: none;
+	margin-top: 1.7px;
+	margin-right: 3.4px;
+	margin-bottom: 1.7px;
+	margin-left: 0;
+}
+ul.thumbs li.selected {			/* still to verify   */
+	element.style {
+    opacity: 0.67;
+}	}
+
+a.thumb {
+	padding: 1px;		/* 0 para eliminar marco        */
+	display: block;
+	border: 1px solid #f7f7f7;
+	height: 85px;
+	width: 85px;
+}
+ul.thumbs li.selected a.thumb {
+	background: #ff4500;
+	/* border: 0.2pt solid #ff4500; */
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0, 0, 0.3);
+     box-shadow: 1px 1px 2px rgba(0,0, 0, 0.3);
+	
+}
+div.pagination {
+	clear: both;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+	display: none;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}

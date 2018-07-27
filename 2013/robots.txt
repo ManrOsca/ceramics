@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /porcelain-domestic-ceramics-contact-artist.html
+Allow: /
+

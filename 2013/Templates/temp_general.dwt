@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/tem_wrapper.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Italo Manrique - Pottery</title>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../css/reset.css" />
+<link rel="stylesheet" href="../css/text.css" />
+<link rel="stylesheet" href="../css/960_24_col.css" />
+<link rel="stylesheet" href="../css/basic.css" />
+<link rel="stylesheet" href="../css/galleriffic-2.css" />
+<script type="text/javascript" src="../js/jquery-1.3.2.js"> </script>
+<script type="text/javascript" src="../js/jquery.galleriffic.js"> </script>
+<script type="text/javascript" src="../js/jquery.opacityrollover.js"> </script>
+		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- InstanceEndEditable -->
+<meta name="keywords" content="ceramics, pottery, italo manrique, teapot, vase, cup, jug, dish, forest hill, hand made, bowl, tea set, sugar bowl, porcelain, milk jug, dolomite glaze, stoneware, terracotta, earthenware, sugar pot, tin glaze, copper glaze, clear glaze, ceramic">
+
+</head>
+<body>
+<div id="container" class="container_24">
+<br />
+<br />
+    <div class="grid_24">
+<!--		<div  class="grid_20 alpha">    -->
+
+		<ul class="botnav">
+		  <!-- InstanceBeginEditable name="bottomMenu" -->
+		    <li><a id="home" class="selected" href="unique-inspiring-ceramics.html"><span>home</span></a></li>
+		    <li><a id="background" href="designer-ceramics-artist-background.html"><span>background</span></a></li>
+		    <li><a id="statement" href="modern-design-ceramics-artist-statement.html"><span>artist's statement</span></a></li>
+		    <li><a id="gallery" href="hand-made-ceramic-teapots.html"><span>gallery</span></a></li>
+		    <li><a href="commission-porcelain-ceramics-domestic-bowls-cups.html" id="commission"><span>commissions</span></a></li>
+		    <li><a id="contact" href="porcelain-domestic-ceramics-contact-artist.html"><span>contact</span></a></li>
+	      <!-- InstanceEndEditable -->
+	  </ul>
+<!--      </div>    <!-- grid_20 prefix_4 -->
+      </div>         <!-- grid_24 -->
+      <div class="hr">
+        <hr>
+      </div> <!-- hr -->
+<br />
+<br />
+<br />
+    <div id="header" classs="grid_24">
+        
+        <div class="grid_14 prefix_10">
+        <br/>
+        <img src="../graphics/italologo_2.jpg" width="258" height="40"></div> 	
+        <!-- end .grid_14 -->
+    
+    </div> <!-- header -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div id="body" class="grid_24">
+	<!-- InstanceBeginEditable name="MainBody" -->
+    
+		<div id="leftBlock" class="grid_10 alpha">
+		<!-- TemplateBeginEditable name="leftBlock" -->
+        leftBlock
+		<!-- TemplateEndEditable -->
+    
+        </div> 	<!-- end .grid_10 -->
+        <div id="MainPic" class="grid_14 omega">
+		<!-- TemplateBeginEditable name="mainPic" -->
+        mainPic
+		<!-- TemplateEndEditable -->
+        
+        </div> 	
+        <!-- end .grid_14 -->
+  	
+	<!-- InstanceEndEditable -->
+
+
+  </div> <!-- body -->
+
+<div class="clear"></div>
+     
+</div> <!-- end .container_24 -->
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				// We only want these styles applied when javascript is enabled
+				$('div.navigation').css({'width' : '200px', 'float' : 'left'});
+				$('div.content').css('display', 'block');
+
+				// Initially set opacity on thumbs and add
+				// additional styling for hover effect on thumbs
+				var onMouseOutOpacity = 1.0;
+				$('#thumbs ul.thumbs li').opacityrollover({
+					mouseOutOpacity:   onMouseOutOpacity,
+					mouseOverOpacity:  0.5,
+					fadeSpeed:         'fast',
+					exemptionSelector: '.selected'
+				});
+
+				// Initialize Advanced Galleriffic Gallery
+				var gallery = $('#thumbs').galleriffic({
+					delay:                     2500,
+					numThumbs:                 15,
+					preloadAhead:              10,
+					enableTopPager:            true,
+					enableBottomPager:         true,
+					maxPagesToShow:            7,
+					imageContainerSel:         '#slideshow',
+					controlsContainerSel:      '#controls',
+					captionContainerSel:       '#caption',
+					loadingContainerSel:       '#loading',
+					renderSSControls:          true,
+					renderNavControls:         true,
+					playLinkText:              '>>',
+					pauseLinkText:             ' ll ',
+					prevLinkText:              '<',
+					nextLinkText:              '>',
+					nextPageLinkText:          'Next &rsaquo;',
+					prevPageLinkText:          '&lsaquo; Prev',
+					enableHistory:             false,
+					autoStart:                 false,
+					syncTransitions:           true,
+					defaultTransitionDuration: 900,
+					onSlideChange:             function(prevIndex, nextIndex) {
+						// 'this' refers to the gallery, which is an extension of $('#thumbs')
+						this.find('ul.thumbs').children()
+							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+							.eq(nextIndex).fadeTo('fast', 0.5);
+					},
+					onPageTransitionOut:       function(callback) {
+						this.fadeTo('fast', 0.0, callback);
+					},
+					onPageTransitionIn:        function() {
+						this.fadeTo('fast', 1.0);
+					}
+				});
+			});
+		</script>
+</body>
+<!-- InstanceEnd --></html>

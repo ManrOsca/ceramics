@@ -1,0 +1,15 @@
+
+
+
+Build the mailto: link using a server script or JavaScript
+
+Use scripts to emulate the function of a mailto: URL. The idea is to create a link on your page that submits the username and domain of the email address to a program that builds the mailto: URL dynamically and returns it to the user's browser.
+
+The following JavaScript function can also obscure mail addresses:
+<a href='javascript:window.location="mail"+"to:"+"user"+"@"+"domain"+"."+"com";' onmouseover='window.status="mail"+"to:"+"user"+"@"+"domain"+"."+"com"; return true;' onmouseout='window.status="";return true;'>Click here to send mail.</a>
+
+This returns a mailto: link to  user@domain.edu , but the username and domain appear broken up in the source HTML file, protecting them from harvest scripts.
+
+Note: This requires your visitors to have JavaScript enabled in their browsers; you may want to note this on your page.
+
+This technique was taken from Mac Efficiency 101: Preventing Spam.
